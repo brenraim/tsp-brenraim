@@ -1,0 +1,42 @@
+<!--
+Brendan Raimann
+3/1/2016
+Document for Traveling Salesman Problem
+Contains 2 canvases. 
+	The first uses the Nearest Neighbor heuristic
+	The second uses the Smallest Increase heuristic.
+Contains 4 Buttons.
+	The first solves the first canvas using the Nearest Neighbor heuristic.
+	The second solves the second canvas using the Smallest Increase heuristic.
+	The third adds 1000 points to each of the canvases.
+	The fourth resets the board and buttons by refreshing the page from the cache.
+-->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Traveling Salesman Problem</title>
+		<link type="text/css" rel="stylesheet" href="tspstyle.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="tsprun.js" type="text/javascript"> </script>
+	</head>
+
+	<body>
+		<h1>Click to Place Points</h1>
+		<canvas id = "canvas" style="border:1px solid #000000";></canvas>
+		<canvas id = "canvas2" style="border:1px solid #000000";></canvas>
+		</br> <!-- Labeling for the canvases -->
+		<p>-----------------------------------Nearest Neighbor--------------------------------------
+		-------------------------------------Smallest Increase------------------------------------</p>
+		</br>
+
+		<div id="button1">Nearest Neighbor</div>
+		<div id="button2">Smallest Increase</div>
+		<div id="button3">Random Points (1000)</div>
+		<div id="button4">Reset Board/Buttons</div>
+		
+		</br>	
+		
+	</body>
+
+</html>

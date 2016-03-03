@@ -1,0 +1,33 @@
+body {
+	background-color:#GGG;
+}
+
+#button1 {
+	display: inline;
+	background-color:#CA6;
+	width:250px;
+}
+
+#button2 {
+	display: inline;
+	background-color:#FA6;
+	width:250px;
+}
+
+#button3 {
+	display: inline;
+	background-color:#5A6;
+	width:250px;
+}
+
+#button4 {
+	display: inline;
+	background-color:#AAF;
+	width:250px;
+}
+
+.listElement {
+	background-color:#77F;
+	width:100px;
+	border:1px solid #22A;
+}
